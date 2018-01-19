@@ -11,6 +11,7 @@ class Calc {
         return $a + $b;
     }
 
-    function test($a, "hoge") {
-	return $a + "hoge";
+    function test($a, $b) {
+	$b = "hoge"
+	return $a + $b;
     }
