@@ -7,6 +7,8 @@ class CalcTest extends TestCase
 {
     public function testAdd()
     {
+$calc = new Calc();
+$this->assertEquals($calc->sub(3, 2), 1);
     }
 }
 ?>
