@@ -10,4 +10,7 @@ class Calc {
     function sub($a, $b) {
         return $a + $b;
     }
-}
+
+    function test($a, "hoge") {
+	return $a + "hoge";
+    }
