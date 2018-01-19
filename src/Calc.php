@@ -11,7 +11,7 @@ class Calc {
         return $a + $b;
     }
 
-    function test($a, $b) {
+    function test($a) {
 	$b = "hoge"
-	return $a + $b;
+	return $a.$b;
     }
