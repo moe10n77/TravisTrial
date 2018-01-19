@@ -12,6 +12,6 @@ class Calc {
     }
 
     function test($a) {
-	$b = "hoge"
+	$b = "hoge";
 	return $a.$b;
     }
