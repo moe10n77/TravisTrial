@@ -15,3 +15,4 @@ class Calc {
 	$b = "hoge";
 	return $a.$b;
     }
+}
